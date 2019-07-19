@@ -1,4 +1,4 @@
-package com.in28minutes.microservices.limitservice;
+package com.in28minutes.microservices.limitsservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class LimitServiceApplicationTests {
+public class LimitsServiceApplicationTests {
 
 	@Test
 	public void contextLoads() {
