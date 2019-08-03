@@ -1,9 +1,11 @@
 package com.in28minutes.microservices.limitsservice;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Component;
 
 @Component
+@RefreshScope
 @ConfigurationProperties("limits-service")
 public class Configuration {
 	private int minimum;
